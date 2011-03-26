@@ -17,6 +17,8 @@ public class RandomChars extends Activity {
         StringBuilder s=new StringBuilder("[");
         for(int i=0;i<8;++i){
         	s.append(Character.valueOf((char) (rnd.nextInt(26)+97)));
+        	//for creating the app icon
+        	//s.append(Character.valueOf((char) (i+97)));
         }
         s.append("] "); //the trailing space is for prefixing to Subject lines
         ((ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE)).setText(s); //deprecated by Android 3.0
