@@ -1,5 +1,8 @@
 package caryl_hafod.RandomChars;
-
+/* Copyright 2011 Ken Takusagawa
+ * 
+ * This program is free software.  See the file COPYING.
+ */
 import java.util.Random;
 
 import android.app.Activity;
