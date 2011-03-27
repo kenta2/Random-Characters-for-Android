@@ -4,8 +4,6 @@ Generates a random string and copies it to the Android clipboard, as well as dis
 
 Use it for attaching a random tag to things.  A new tag is generated every time the app is run.
 
-The entropy source is NOT cryptographically secure.  Do not use it to generate passwords.
-
 Copyright 2011 Ken Takusagawa
 
 This program is free software: you can redistribute it and/or modify

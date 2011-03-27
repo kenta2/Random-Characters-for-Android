@@ -3,6 +3,7 @@ package caryl_hafod.RandomChars;
  * 
  * This program is free software.  See the file COPYING.
  */
+import java.security.SecureRandom;
 import java.util.Random;
 
 import android.app.Activity;
@@ -16,7 +17,7 @@ public class RandomChars extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Random rnd=new Random();
+        Random rnd=new SecureRandom();
         StringBuilder s=new StringBuilder("[");
         for(int i=0;i<8;++i){
         	s.append(Character.valueOf((char) (rnd.nextInt(26)+97)));
