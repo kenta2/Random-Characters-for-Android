@@ -1,11 +1,10 @@
 Random Characters for Android
 
-This program generates a random text string of the form "[abcdefgh] "
-and copies it to the Android clipboard, as well as displays it in a
-short Toast popup.  The format is 8 lowercase characters, surrounded
-by square brackets and a trailing space.
+Generates a random string and copies it to the Android clipboard, as well as displays it in a short Toast popup.  The format "[abcdefgh] " is 8 random lowercase characters, surrounded by square brackets and a trailing space.
 
-Use it for attaching a random tag to things.
+Use it for attaching a random tag to things.  A new tag is generated every time the app is run.
+
+The entropy source is NOT cryptographically secure.  Do not use it to generate passwords.
 
 Copyright 2011 Ken Takusagawa
 
